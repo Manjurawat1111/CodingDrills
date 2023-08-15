@@ -20,3 +20,15 @@ const sortArray=array.sort(ascendingSort);
 console.log(sortArray);
 
 
+// Define an array with two string values and one nested array:
+const profile = ["codesweetly.com", "Male", ["Oluwatobi", "Sofela"]];
+
+// Define a function with two destructuring arrays containing a parameter each:
+function getUserBio([website, , [userName]]) {
+  return `${userName} runs ${website}`;
+}
+
+// Invoke getUserBio while passing the profile array as an argument:
+
+console.log(getUserBio(profile));
+
