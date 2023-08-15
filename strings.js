@@ -9,7 +9,12 @@
 // console.log("No fruit is not available");
 const array=[1,2,7,5,8,6,3,4];
 console.log(array);
-const sortArray=array.sort();
+function ascendingSort(a,b){
+    return a-b
+
+}
+
+const sortArray=array.sort(ascendingSort);
 
 
 console.log(sortArray);
