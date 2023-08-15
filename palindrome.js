@@ -1,11 +1,7 @@
 const string='level';
 
-const arraySplit=string.split("");
-console.log(arraySplit);
-const arrayReverse=arraySplit.reverse();
-console.log(arrayReverse);
 
-const newString=arrayReverse.join("");
+const newString=string.split("").reverse().join("");
 console.log(newString);
 
 if(string===newString)
